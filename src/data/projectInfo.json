@@ -1,0 +1,47 @@
+[
+{
+  "title": "Virdicon Ltd",
+  "description1": "Freelance Developer",
+  "description2": "Developed and designed a visually appealing React-based web application for Virdicon Ltd, incorporating a captivating UI with parallax effects and animations.",
+  "description3":"Implemented Google Cloud Functions to leverage the serverless architecture approach for building robust and secure REST API, enhancing scalability and efficiency.",
+  "description4" :"Integrated Twilio API for prompt text message sending upon form submission, improving customer communication.",
+  "link": "https://virdicon.com/",
+  "pic":"/images/projects/virdicon.png"
+},
+{
+  "title": "SaveIndia Covid App",
+  "description1": "Public Welfare Project",
+  "description2": "Developed a web application during COVID-19 to provide crucial information about suppliers offering life-saving equipment, positively impacting the lives of over 100 people.",
+  "description3": "Implemented Google Puppeteer to automate web scraping, chat functionality, and efficient data gathering workflows, resulting in seamless information extraction and streamlined data storage. Demo: Video Link.",
+  "description4": "Incorporated Firebase as the backend solution for efficient data management and authentication processes. Utilized React JS and Tailwind to design an intuitive and user-friendly frontend UI, consistently enhancing its interface.",
+  "link": "https://saveindia.web.app/",
+  "pic": "/images/projects/saveindia.png"
+},
+{
+  "title": "Sparkup Angular App",
+  "description1": "Social media app (Angular, Express, MongoDb)",
+  "description2": "Contributed to social media app development using Express.js for the backend, along with Angular for the frontend.",
+  "description3": "Built secure RESTful APIs in Node.js, including authentication and authorization for robust access control.",
+  "description4": "Integrated messaging and live chat functionality within the app, enabling real-time communication.",
+  "link": "https://sparkup-angular.vercel.app",
+  "pic": "/images/projects/angularsparkup.png"
+},
+{
+  "title": "Sparkup React App",
+  "description1": "Social media app (React, Express, MongoDb)",
+  "description2": "Redesigned the existing Sparkup social media app by rebuilding the user interface using React, successfully migrating the frontend codebase from Angular.",
+  "description3": "Implemented the same features and functionalities with improved performance and user experience.",
+  "description4": "Collaborated closely with the team to ensure a smooth transition and consistent user interface across the application.",
+  "link": "https://sparkup-react.vercel.app",
+  "pic": "/images/projects/reactsparkup.png"
+},
+{
+  "title": "Movie Information App",
+  "description1": "Academic Project (Handlebars, Express, MongoDb)",
+  "description2": "Created a web application utilizing Express, Handlebars, and MongoDB Atlas that allows users to view and edit movie details and information.",
+  "description3": "Enabled secure user authentication with JWT to regulate access control.",
+  "description4": "Designed the schema for structuring the collection using Mongoose.",
+  "link": "https://shy-red-camel-coat.cyclic.app",
+  "pic": "/images/projects/mern.png"
+}
+]
