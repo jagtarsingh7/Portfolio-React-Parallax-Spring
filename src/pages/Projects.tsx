@@ -34,8 +34,6 @@ export default function Projects() {
                     backgroundPosition: "center",
                     backgroundSize: "cover"
                 }}
-             
-
             >
                  
             </ParallaxLayer>
@@ -45,8 +43,6 @@ export default function Projects() {
                 speed={0.4}
                 className="flex flex-col justify-center items-center z-10"
             >
-                
-               
                 <ViewDetectAnimation to={0} direction={"Y"} speed={1000} repeat={true} level={20} styles={""}>
                     <h1 className="underline text-white text-center xl:text-8xl  md:text-6xl text-4xl  font-serif "> From Vision to Reality</h1>
                 </ViewDetectAnimation>
@@ -62,15 +58,6 @@ export default function Projects() {
                 style={{ height: "25vh" }}
                 className="flex flex-col items-center justify-center text-black text-center "
             >
-                {/* <ViewDetectAnimation to={0} direction={"Y"} speed={700} level={-100} repeat={true} styles={""} >
-                    <p className=" md:text-2xl sm:text-md text-sm font-serif my-auto p-5 ">
-                        Determined IT postgraduate with a hunger for growth and advancement. Demonstrated expertise in React, Angular, and Node.js,
-                        specializing in the development of scalable applications. Proficient in REST API integration and proficient database management.
-                        Effective communicator with a passion for continuous learning. Eager to join a dynamic team,
-                        contribute meaningfully, and embark on a journey of professional growth.
-                    </p>
-                </ViewDetectAnimation> */}
-
                 <ViewDetectAnimation to={0} direction="X" level={-50} styles={""} speed={0} repeat={false}>
                     <h1 className="mt-5 underline xl:text-7xl md:text-5xl text-4xl text-black font-mono my-auto">Projects</h1>
                 </ViewDetectAnimation>
@@ -86,7 +73,6 @@ export default function Projects() {
                         sticky={{ start: 1 + index, end: 1.5 + index }}
                         className="block md:hidden  "
                     >
-
                         <div className="flex flex-col justify-center items-center h-full text-sm font-light  ">
                             <ViewDetectAnimation to={0} direction={"Y"} styles={""} speed={0} level={0} repeat={false}>
                                 <div className="space-y-4 rounded-lg shadow-2xl bg-white ">
@@ -253,22 +239,6 @@ export default function Projects() {
                 ))
             }
 
-            {/* {
-                projectInfo.map((item, index) => (<ParallaxLayer
-                    offset={1.4+index}
-                    speed={0.2}
-                    key={index}
-                    className="-z-50 w-2/4 md:w-2/4 h-full "
-                    style={{
-                        backgroundImage: `${item.pic}`,
-                        backgroundPosition: "center",
-                        backgroundSize: "cover"
-                    }}
-                >
-                   
-                     
-                   
-                </ParallaxLayer>))} */}
             <ParallaxLayer
                 offset={1.4}
                 speed={0.2}
@@ -276,7 +246,6 @@ export default function Projects() {
             >
                 <div
                     className=" h-full bg-cover md:bg-left-top bg-center bg-[url('../public/images/projects/virdicon.png')]"
-
                 >
                 </div>
             </ParallaxLayer>
@@ -288,7 +257,6 @@ export default function Projects() {
                 className="-z-50 "
             >
                 <div
-
                     className=" h-full bg-cover md:bg-left-top bg-center  bg-[url('../public/images/projects/saveindia.png')]"
                 >
                 </div>
@@ -301,7 +269,6 @@ export default function Projects() {
                 className="-z-50  "
             >
                 <div
-
                     className="h-full bg-cover md:bg-left-top bg-center  bg-[url('../public/images/projects/angularSparkup.png')]"
                 >
                 </div>
@@ -311,10 +278,8 @@ export default function Projects() {
                 offset={4.4}
                 speed={0.2}
                 className="-z-50 "
-
             >
                 <div
-
                     className=" h-full bg-cover md:bg-left-top bg-center  bg-[url('../public/images/projects/reactSparkup.png')]"
                 >
                 </div>
@@ -327,18 +292,13 @@ export default function Projects() {
                 sticky={{ start: 5.4, end: 6 }}
                 factor={1.5}
             >
-
                 <div
-
-                    className=" h-full bg-cover    md:bg-left-top bg-center  bg-[url('../public/images/projects/mehn.png')] "
-                    
+                    className=" h-full bg-cover    md:bg-left-top bg-center  bg-[url('../public/images/projects/mehn.png')] "                   
                 >
                 </div>
                 <Footer></Footer>
             </ParallaxLayer>
-
-           
-
+            
         </Parallax ></>) :
             (<LoadingView></LoadingView>)
 

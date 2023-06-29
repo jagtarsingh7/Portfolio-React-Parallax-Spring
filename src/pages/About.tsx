@@ -42,9 +42,7 @@ function About() {
                     </div>
                 </div>
             </section>
-
             <ContactForm />
-
         </div>
     )
 }
