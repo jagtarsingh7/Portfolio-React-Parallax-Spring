@@ -84,7 +84,7 @@ export default function Home() {
                 Take a Closer Look at My Skills and Experience - View My Resume to Explore Further
               </p>
               <a className="bg-gradient-to-r from-green-200 via-blue-300 to-purple-800 bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
-                href="images/projects/resume.pdf" target="_blank" >View Resume</a>
+                href="images/projects/resume.pdf" target="_blank" rel="noopener noreferrer">View Resume</a>
 
 
             </div>

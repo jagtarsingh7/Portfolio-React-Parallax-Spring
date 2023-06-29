@@ -1,12 +1,17 @@
 {
   "hosting": {
     "public": "build",
-   
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
     ],
-    "site":"jagtarsingh"
+    "site": "jagtarsingh",
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
   }
 }
