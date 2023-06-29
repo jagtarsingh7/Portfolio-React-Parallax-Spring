@@ -16,8 +16,6 @@ export default function Projects() {
     }, [])
 
     return (
-
-
         animation ? 
         (<><Header/>
         <Parallax
@@ -298,7 +296,7 @@ export default function Projects() {
                 </div>
                 <Footer></Footer>
             </ParallaxLayer>
-            
+
         </Parallax ></>) :
             (<LoadingView></LoadingView>)
 

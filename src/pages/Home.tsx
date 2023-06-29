@@ -11,9 +11,9 @@ export default function Home() {
 
   return (
 
-    <Parallax ref={parallax} pages={4} className="bg-black ">
+    <Parallax ref={parallax} pages={4} className="bg-black " style={{minHeight:"50rem"}}>
 
-      <ParallaxLayer speed={0.1} offset={0} factor={2} >
+      <ParallaxLayer speed={0.1} offset={0} factor={2}>
         <div className=" h-full bg-cover bg-center bg-[url('../public/images/nature/moon3.jpg')]" >
 
         </div>

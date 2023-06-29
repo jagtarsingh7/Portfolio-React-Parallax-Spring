@@ -1,3 +1,30 @@
+# Portfolio Web App
+
+[Live Demo](https://jagtarsingh.web.app)
+
+This is a portfolio web application built with React and deployed on Google Firebase. It showcases my projects, skills, and experiences.
+
+## Table of Contents
+
+- [Deployment](#deployment)
+- [Getting Started](#getting-started)
+- [Available Scripts](#available-scripts)
+- [Learn More](#learn-more)
+
+
+## Deployment
+
+The web app is deployed using the CI/CD pipeline provided by GitHub and Google Firebase. The deployment process is automated, triggered by pushes to the main branch of the GitHub repository. The live demo of the app can be accessed [here](https://jagtarsingh.web.app).
+
+To deploy the app manually, follow these steps:
+
+1. Build the app for production:
+
+2. Deploy the contents of the `build` folder to your hosting provider.
+
+For more information, check the [Firebase Hosting documentation](https://firebase.google.com/docs/hosting).
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

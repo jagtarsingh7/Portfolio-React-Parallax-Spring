@@ -1,0 +1,30 @@
+[debug] [2023-06-29T14:03:12.511Z] ----------------------------------------------------------------------
+[debug] [2023-06-29T14:03:12.512Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2023-06-29T14:03:12.512Z] CLI Version:   12.3.0
+[debug] [2023-06-29T14:03:12.512Z] Platform:      darwin
+[debug] [2023-06-29T14:03:12.512Z] Node Version:  v16.14.2
+[debug] [2023-06-29T14:03:12.515Z] Time:          Thu Jun 29 2023 10:03:12 GMT-0400 (Eastern Daylight Time)
+[debug] [2023-06-29T14:03:12.515Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-06-29T14:03:12.546Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-06-29T14:03:12.546Z] > authorizing via signed-in user (jagtar.singhx7@gmail.com)
+[debug] [2023-06-29T14:03:12.546Z] [iam] checking project portfolio-83db1 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-06-29T14:03:12.547Z] > refreshing access token with scopes: []
+[debug] [2023-06-29T14:03:12.548Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-06-29T14:03:12.548Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-06-29T14:03:12.785Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-06-29T14:03:12.785Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-06-29T14:03:12.826Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-83db1:testIamPermissions [none]
+[debug] [2023-06-29T14:03:12.827Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-83db1:testIamPermissions x-goog-quota-user=projects/portfolio-83db1
+[debug] [2023-06-29T14:03:12.827Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-83db1:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-06-29T14:03:13.159Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-83db1:testIamPermissions 200
+[debug] [2023-06-29T14:03:13.160Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-83db1:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-06-29T14:03:13.161Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-83db1 [none]
+[debug] [2023-06-29T14:03:13.472Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-83db1 200
+[debug] [2023-06-29T14:03:13.472Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-83db1 {"projectId":"portfolio-83db1","projectNumber":"533821717340","displayName":"portfolio","name":"projects/portfolio-83db1","resources":{"hostingSite":"portfolio-83db1"},"state":"ACTIVE","etag":"1_1e69be37-1b92-40f0-b5d7-2d7508b6aeb5"}
+[info] 
+[info] === Deploying to 'portfolio-83db1'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2023-06-29T14:03:13.475Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/jagtarsingh/versions [none]
+[debug] [2023-06-29T14:03:13.475Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/jagtarsingh/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
